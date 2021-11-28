@@ -63,30 +63,8 @@ const Column = styled.div`
 const Feature = () => {
     return(
         <Container>
-            <Thing>
-                <Window>
-                    <Column>
-                        <WindowText>
-                            From(estimated)
-                        </WindowText>
-                        <Row style={{justifyContent:"space-between"}}   >
-                            <Number>0.0</Number>
-                            <SelectText>HEX</SelectText>
-                        </Row>
-                    </Column>
-                </Window>
-                <Window>
-                    <Column>
-                        <WindowText>
-                            To
-                        </WindowText>
-                        <Row style={{justifyContent:"space-between"}}   >
-                            <Number>0.0</Number>
-                            <SelectText>ETH</SelectText>
-                        </Row>
-                    </Column>
-                </Window>
-            </Thing>
+            <iframe src="https://quickswap.exchange/#/swap?outputCurrency=0x831753dd7087cac61ab5644b308642cc1c33dc13" style={{height:"660px", width:"100%"}} id="myId" />
+
         </Container>
     )
 }
