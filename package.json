@@ -1,7 +1,7 @@
 {
   "name": "Quickswap",
   "description": "Quickswap",
-  "homepage": "https://Zciwolvo.github.io/Quickswap/swap",
+  "homepage": "https://Zciwolvo.github.io/Quickswap/",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
