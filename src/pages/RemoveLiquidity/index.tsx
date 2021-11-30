@@ -30,7 +30,6 @@ import { currencyId } from '../../utils/currencyId'
 import useDebouncedChangeHandler from '../../utils/useDebouncedChangeHandler'
 import { wrappedCurrency } from '../../utils/wrappedCurrency'
 import AppBody from '../AppBody'
-import { ClickableText, Wrapper } from '../Pool/styleds'
 import { useApproveCallback, ApprovalState } from '../../hooks/useApproveCallback'
 import { Dots } from '../../components/swap/styleds'
 import { useBurnActionHandlers } from '../../state/burn/hooks'
@@ -455,7 +454,6 @@ export default function RemoveLiquidity({
     <>
       <AppBody>
         <AddRemoveTabs adding={false} />
-        <Wrapper>
           <TransactionConfirmationModal
             isOpen={showConfirm}
             onDismiss={handleDismissConfirmation}
@@ -477,13 +475,6 @@ export default function RemoveLiquidity({
                 <AutoColumn>
                   <RowBetween>
                     <Text>Amount</Text>
-                    <ClickableText
-                      onClick={() => {
-                        setShowDetailed(!showDetailed)
-                      }}
-                    >
-                      {showDetailed ? 'Simple' : 'Detailed'}
-                    </ClickableText>
                   </RowBetween>
                   <Flex justifyContent="start">
                     <Text fontSize="64px">{formattedAmounts[Field.LIQUIDITY_PERCENT]}%</Text>
@@ -666,7 +657,6 @@ export default function RemoveLiquidity({
               </div>
             </Body>
           </AutoColumn>
-        </Wrapper>
       </AppBody>
 
       {pair ? (
