@@ -1,10 +1,4 @@
 
-## Intro
-
-[QuickSwap](https://quickswap.exchange/) is an automated market maker (“**AMM**”) that allows two tokens to be exchanged on the [Polygon](https://www.polygon.technology) (Polygon). It is fast, cheap, and allows anyone to participate.
-
-##
-
 This repo is responsible for the **exchange/pool** interfaace of the AMM: [quickswap.exchange](https://quickswap.exchange/)
 
 ## Run locally
