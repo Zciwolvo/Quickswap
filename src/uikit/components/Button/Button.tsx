@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({ startIcon, endIcon, children, external,
 };
 
 Button.defaultProps = {
-  variant: variants.PRIMARY,
+  variant: variants.TERTIARY,
   size: sizes.MD,
   external: false,
 };

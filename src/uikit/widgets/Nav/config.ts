@@ -6,11 +6,11 @@ const links: NavProps["links"] = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.quickswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.quickswap.finance/#/pool",
       },
     ],
   },
@@ -28,7 +28,7 @@ const links: NavProps["links"] = [
   },
   {
     label: "Info",
-    href: "https://pancakeswap.info",
+    href: "https://quickswap.info",
   },
   {
     label: "IFO",

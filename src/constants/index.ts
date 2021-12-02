@@ -49,7 +49,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 18, 'CAKE', 'PancakeSwap Token'),
+      new Token(ChainId.MAINNET, '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 18, 'CAKE', 'quickswap Token'),
       new Token(ChainId.MAINNET, '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270', 18, 'WMATIC', 'Wrapped Matic')
     ],
     [USDC, USDT],
@@ -92,9 +92,9 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     name: 'MetaMask',
     iconName: 'metamask.png',
     description: 'Easy-to-use browser extension.',
-    href: null,
+    href: "https://metamask.io/",
     color: '#E8831D'
-  }
+  },
   // WALLET_CONNECT: {
   //   connector: walletconnect,
   //   name: 'WalletConnect',
@@ -111,16 +111,15 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   //   description: 'Use Coinbase Wallet app on mobile device',
   //   href: null,
   //   color: '#315CF5'
-  // },
-  // COINBASE_LINK: {
-  //   name: 'Open in Coinbase Wallet',
-  //   iconName: 'coinbaseWalletIcon.svg',
-  //   description: 'Open in Coinbase Wallet app.',
-  //   href: 'https://go.cb-w.com/mtUDhEZPy1',
-  //   color: '#315CF5',
-  //   mobile: true,
-  //   mobileOnly: true
-  // },
+   COINBASE_LINK: {
+     name: 'Coinbase',
+     iconName: 'coinbaseWalletIcon.svg',
+     description: 'Open in Coinbase Wallet app.',
+     href: 'https://go.cb-w.com/mtUDhEZPy1',
+     color: '#315CF5',
+     mobile: true,
+     mobileOnly: true
+   }
   // FORTMATIC: {
   //   connector: fortmatic,
   //   name: 'Fortmatic',

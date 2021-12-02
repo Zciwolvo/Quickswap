@@ -1,5 +1,5 @@
 import React from "react";
-import { renderWithTheme } from "../../testHelpers";
+
 import { Card, CardBody, CardFooter } from "../../components/Card";
 
 it("renders correctly", () => {

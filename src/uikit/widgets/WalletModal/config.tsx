@@ -10,7 +10,7 @@ const connectors: Config[] = [
     connectorId: "injected",
   },
   {
-    title: "TrustWallet",
+    title: "Coinbase Wallet",
     icon: TrustWallet,
     connectorId: "injected",
   },

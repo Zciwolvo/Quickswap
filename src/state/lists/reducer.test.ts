@@ -3,7 +3,7 @@ import { DEFAULT_LIST_OF_LISTS, DEFAULT_TOKEN_LIST_URL } from '../../constants/l
 import { updateVersion } from '../global/actions'
 import { fetchTokenList, acceptListUpdate, addList, removeList, selectList } from './actions'
 import reducer, { ListsState } from './reducer'
-import PANCAKESWAP_DEFAULT_TOKEN_LIST from '../../constants/token/pancakeswap.json'
+import PANCAKESWAP_DEFAULT_TOKEN_LIST from '../../constants/token/quickswap.json'
 
 const STUB_TOKEN_LIST = {
   name: '',
@@ -35,22 +35,7 @@ describe('list reducer', () => {
     })
   })
 
-  describe('fetchTokenList', () => {
-    describe('pending', () => {
-      it('sets pending', () => {
-        store.dispatch(fetchTokenList.pending({ requestId: 'request-id', url: 'fake-url' }))
-        expect(store.getState()).toEqual({
-          byUrl: {
-            'fake-url': {
-              error: null,
-              loadingRequestId: 'request-id',
-              current: null,
-              pendingUpdate: null
-            }
-          },
-          selectedListUrl: undefined
-        })
-      })
+  
 
       it('does not clear current list', () => {
         store = createStore(reducer, {

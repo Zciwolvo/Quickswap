@@ -18,9 +18,9 @@ type ApiResponse = {
 
 /**
  * Due to Cors the api was forked and a proxy was created
- * @see https://github.com/pancakeswap/gatsby-pancake-api/commit/e811b67a43ccc41edd4a0fa1ee704b2f510aa0ba
+ * @see https://github.com/quickswap/gatsby-pancake-api/commit/e811b67a43ccc41edd4a0fa1ee704b2f510aa0ba
  */
-const api = 'https://api.pancakeswap.com/api/v1/price'
+const api = 'https://api.quickswap.com/api/v1/price'
 
 const useGetPriceData2 = () => {
   const [data, setData] = useState<number>(0)

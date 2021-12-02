@@ -43,7 +43,7 @@ export const ButtonLink: React.FC = () => {
   return (
     <>
       <Row>
-        <Button as="a" href="https://pancakeswap.finance" target="_blank" rel="noreferrer">
+        <Button as="a" href="https://quickswap.finance" target="_blank" rel="noreferrer">
           Primary
         </Button>
         <Button as="a" disabled>

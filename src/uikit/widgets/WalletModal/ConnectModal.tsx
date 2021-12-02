@@ -31,11 +31,11 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
       />
     ))}
     <HelpLink
-      href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+      href="https://ethereum.org/en/dapps/#3-what-is-a-wallet-and-which-one-should-i-use"
       external
     >
       <HelpIcon color="primary" mr="6px" />
-      Learn how to connect
+      Learn more about wallets
     </HelpLink>
   </Modal>
 );
