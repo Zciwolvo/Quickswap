@@ -4,8 +4,8 @@
     "static/js/0.e0289834.chunk.js.map": "/Quickswap/static/js/0.e0289834.chunk.js.map",
     "static/js/1.7d6bbe5f.chunk.js": "/Quickswap/static/js/1.7d6bbe5f.chunk.js",
     "static/js/1.7d6bbe5f.chunk.js.map": "/Quickswap/static/js/1.7d6bbe5f.chunk.js.map",
-    "main.js": "/Quickswap/static/js/main.c4d3832d.chunk.js",
-    "main.js.map": "/Quickswap/static/js/main.c4d3832d.chunk.js.map",
+    "main.js": "/Quickswap/static/js/main.ad0c3fc9.chunk.js",
+    "main.js.map": "/Quickswap/static/js/main.ad0c3fc9.chunk.js.map",
     "runtime-main.js": "/Quickswap/static/js/runtime-main.4e414272.js",
     "runtime-main.js.map": "/Quickswap/static/js/runtime-main.4e414272.js.map",
     "static/css/4.b9c29092.chunk.css": "/Quickswap/static/css/4.b9c29092.chunk.css",
@@ -30,12 +30,13 @@
     "static/js/9.2901773f.chunk.js.LICENSE.txt": "/Quickswap/static/js/9.2901773f.chunk.js.LICENSE.txt",
     "static/media/inter.css": "/Quickswap/static/media/Inter.var.a738a131.woff2",
     "static/media/blue-loader.a7172c15.svg": "/Quickswap/static/media/blue-loader.a7172c15.svg",
-    "static/media/dropdown.fef18eeb.svg": "/Quickswap/static/media/dropdown.fef18eeb.svg"
+    "static/media/dropdown.fef18eeb.svg": "/Quickswap/static/media/dropdown.fef18eeb.svg",
+    "static/media/hmmcoin.39913815.png": "/Quickswap/static/media/hmmcoin.39913815.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4e414272.js",
     "static/css/4.b9c29092.chunk.css",
     "static/js/4.66152f93.chunk.js",
-    "static/js/main.c4d3832d.chunk.js"
+    "static/js/main.ad0c3fc9.chunk.js"
   ]
 }
