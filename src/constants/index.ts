@@ -2,7 +2,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from 'sdkv2'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
-import { injected, bsc } from '../connectors'
+import { injected, bsc, walletlink, walletconnect, metamask } from '../connectors'
 // TODO
 export const ROUTER_ADDRESS = '0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff'
 
@@ -92,25 +92,26 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     name: 'MetaMask',
     iconName: 'metamask.png',
     description: 'Easy-to-use browser extension.',
-    href: "https://metamask.io/",
+    href: null,
     color: '#E8831D'
   },
-  // WALLET_CONNECT: {
-  //   connector: walletconnect,
-  //   name: 'WalletConnect',
-  //   iconName: 'walletConnectIcon.svg',
-  //   description: 'Connect to Trust Wallet, Rainbow Wallet and more...',
-  //   href: null,
-  //   color: '#4196FC',
-  //   mobile: true
-  // },
-  // WALLET_LINK: {
-  //   connector: walletlink,
-  //   name: 'Coinbase Wallet',
-  //   iconName: 'coinbaseWalletIcon.svg',
-  //   description: 'Use Coinbase Wallet app on mobile device',
-  //   href: null,
-  //   color: '#315CF5'
+   WALLET_CONNECT: {
+     connector: walletconnect,
+     name: 'WalletConnect',
+     iconName: 'walletConnectIcon.svg',
+     description: 'Connect to Trust Wallet, Rainbow Wallet and more...',
+     href: null,
+     color: '#4196FC',
+     mobile: true
+   },
+   WALLET_LINK: {
+     connector: walletlink,
+     name: 'Coinbase Wallet',
+     iconName: 'coinbaseWalletIcon.svg',
+     description: 'Use Coinbase Wallet app on mobile device',
+     href: 'https://go.cb-w.com/mtUDhEZPy1',
+     color: '#315CF5'
+   },
    COINBASE_LINK: {
      name: 'Coinbase',
      iconName: 'coinbaseWalletIcon.svg',
